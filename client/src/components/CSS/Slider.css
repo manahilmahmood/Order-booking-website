@@ -1,0 +1,18 @@
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-green-500 bg-white w-8 h-8 rounded-full shadow-md transition duration-300 ease-in-out p-2;
+  font-size: 5px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  @apply bg-green-100 text-green-700 scale-105;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-gray-400 w-[20px] h-[8px] opacity-80 transition-all duration-300 ease-in-out rounded-[1rem];
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-green-600 w-[15px] h-[8px] opacity-50 ;
+}
